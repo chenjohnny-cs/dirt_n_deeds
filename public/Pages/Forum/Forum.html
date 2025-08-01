@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forum - Dirt & Deeds</title>
+
+        <link rel="stylesheet" href="../../Resources/styles.css">
+        <link rel="stylesheet" href="./forum.css">
+        <link rel="stylesheet" href="./forum-create.css">
+
+        <link rel="prefetch" href="../../components/UserContext.js" as="script">
+        <link rel="prefetch" href="../../components/header.js" as="script">
+        <link rel="prefetch" href="../../components/footer.js" as="script">
+        <link rel="prefetch" href="./forum-card.js" as="script">
+        <link rel="prefetch" href="./forum.js" as="script">
+
+        <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+        
+        <script src="https://cdn.socket.io/4.5.1/socket.io.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="text/babel" src="../../components/UserContext.js"></script>
+        <script type="text/babel" src="../../components/header.js"></script>
+        <script type="text/babel" src="../../components/footer.js"></script>
+        <script type="text/babel" src="./forum-card.js"></script>
+        <script type="text/babel" src="./forum.js"></script>
+    </body>
+</html>
